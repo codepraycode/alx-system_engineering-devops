@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lah --time-style='+' ./ ../ /boot
+ls -la --time-style='+' ./ .. /boot
