@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Find and display pid
+echo "$$"
