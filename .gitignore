@@ -1,0 +1,5 @@
+# Test files
+*-main.py
+
+# Cache files
+__pycache__
