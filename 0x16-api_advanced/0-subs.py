@@ -4,6 +4,8 @@ import requests
 
 
 API_URL = "https://www.reddit.com/r/{}/about.json"
+
+
 def number_of_subscribers(subreddit):
     """Return the total number of subscribers on a given subreddit."""
 

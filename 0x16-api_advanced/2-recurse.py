@@ -9,6 +9,7 @@ import requests
 API_URL = "https://www.reddit.com/r/{}/hot.json"
 USER_AGENT = "linux:0x16.api.advanced:v1.0.0 (by /u/cpc)"
 
+
 def add_title(hot_list, hot_posts):
     """ Adds item into a list """
     if len(hot_posts) == 0:
@@ -20,7 +21,7 @@ def add_title(hot_list, hot_posts):
 
 def recurse(subreddit, hot_list=[], after=None):
     """ Queries to Reddit API """
-    
+
     headers = {
         'User-Agent': USER_AGENT
     }

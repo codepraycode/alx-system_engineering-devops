@@ -5,6 +5,7 @@ import requests
 
 API_URL = "https://www.reddit.com/r/{}/hot/.json"
 
+
 def top_ten(subreddit):
     """Print the titles of the 10 hottest posts on a given subreddit."""
     url = API_URL.format(subreddit)

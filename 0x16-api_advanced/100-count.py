@@ -6,6 +6,7 @@ import requests
 API_URL = "https://www.reddit.com/r/{}/hot/.json"
 USER_AGENT = "linux:0x16.api.advanced:v1.0.0 (by /u/cpc)"
 
+
 def count_words(subreddit, word_list, instances={}, after="", count=0):
     """Prints counts of given words found in hot posts of a given subreddit.
     Args:
