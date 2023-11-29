@@ -31,3 +31,5 @@ $ ssh-keygen
 ```
 
 and follow the prompt.
+
+> Help from [https://askubuntu.com/questions/4830/easiest-way-to-copy-ssh-keys-to-another-machine/4833#4833](https://askubuntu.com/questions/4830/easiest-way-to-copy-ssh-keys-to-another-machine/4833#4833)
