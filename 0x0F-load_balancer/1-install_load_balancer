@@ -47,3 +47,5 @@ sudo apt-get -y install haproxy
 sudo cp -a /etc/haproxy/haproxy.cfg{,.orig}
 sudo echo "$config" | sudo tee /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
+
+# incase of issue, read haproxy -f /etc/haproxy/haproxy.cfg -db
