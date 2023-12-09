@@ -30,7 +30,7 @@ backend web-backend
     mode http
     balance roundrobin
     server 221221-web-01 54.82.210.126:80 check
-    server 221221-web-02 18.233.67.22:80 check                               
+    server 221221-web-02 18.233.67.22:80 check
 "
 
 # Update packages
